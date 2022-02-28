@@ -20,7 +20,7 @@
             text-align: justify;
         }
     </style>
-    <title>House</title>
+    <title>Statistics</title>
 </head>
 
 <body>
@@ -33,10 +33,10 @@
             </div>
         </div>
     </div>
-
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -66,56 +66,43 @@
         </nav>
     </div>
     <div class="container">
-        <h1>House</h1>
-
-        <div class="lastJustify">
-            <p>The United States House of Representatives is the lower house of the United States Congress, with the
-                Senate
-                being the upper house. Together they compose the national bicameral legislature of the United States.
-
-                TheHouse's composition was established by Article One of the United States Constitution. The House is
-                composed of representatives who sit in congressional districts allocated to each state on a basis of
-                population as measured by the U.S. Census, with each district having one representative, provided that
-                each
-                state is entitled to at least one. Since its inception in 1789, all representatives have been directly
-                elected. As of 2021, the number of voting representatives is fixed by law at 435.[1] If enacted, the DC
-                Admission Act would permanently increase the number of representatives to 436.[2] In addition, there are
-                currently six non-voting members, bringing the total membership of the House of Representatives to
-                441[3] or
-                fewer with vacancies. As of the 2010 Census, the largest delegation was that of California, with 53
-                representatives. Seven states have only one representative: Alaska, Delaware, Montana, North Dakota,
-                South
-                Dakota, Vermont, and Wyoming.[4]
-            <blockquote>
-                The House is charged with the passage of federal legislation, known as bills; those of which that are
-                also
-                passed by the Senate are sent to the president for consideration. The House also has exclusive powers:
-                it
-                initiates all revenue bills, impeaches federal officers, and elects the president if no candidate
-                receives a
-                majority of votes in the Electoral College.[5][6]
-            </blockquote>
-            The House meets in the south wing of the United States Capitol. The presiding officer is the Speaker of the
-            House, who is elected by the members thereof. The Speaker and other floor leaders are chosen by the
-            Democratic Caucus or the Republican Conference, depending on whichever party has more voting members.
-            </p>
-        </div>
-        <table class="table">
-            <thead>
+        <h1>Statistics</h1>
+        <div class=" col-12 col-sm-12">
+            <div class="lastJustify">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <table class="table">
+                <h3 id="totalMembersHouse"></h3>
                 <thead>
                     <tr>
-                        <th scope="col">Id</th>
-                        <th scope="col">Name</th>
                         <th scope="col">Party</th>
-                        <th scope="col">State</th>
-                        <th scope="col">Years in Office</th>
-                        <th scope="col">% Votes w/ party</th>
+                        <th scope="col">Party members</th>
+                        <th scope="col">Average votes per party</th>
                     </tr>
                 </thead>
-            <tbody id="houseId"></tbody>
-        </table>
+                <tbody id="houseTable"></tbody>
+            </table>
+
+            <table class="table">
+                <h3 id="totalMembersSenate"></h3>
+                <thead>
+                    <tr>
+                        <th scope="col">Party</th>
+                        <th scope="col">Party members</th>
+                        <th scope="col">Average votes per party</th>
+                    </tr>
+                </thead>
+                <tbody id="senateTable"></tbody>
+            </table>
+        </div>
     </div>
 </body>
+
 <footer class="page-footer font-small mdb-color darken-3 pt-4">
     <div class="footer-copyright text-center py-3">© 2022 Copyright | All Rights Reserved.</div>
 </footer>
